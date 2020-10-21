@@ -214,22 +214,16 @@ footer {
 .footer #twitter {
   background: transparent url("images/footer-twitter.png") no-repeat 0 0;
 }
-.footer #facebook {
-  background: transparent url("images/footer-facebook.png") no-repeat 0 0;
-}
-.footer #gplus {
-  background: transparent url("images/footer-gplus.png") no-repeat 0 0;
-}
 .footer #github {
   background: transparent url("images/footer-github.png") no-repeat 0 0;
 }
 .footer #contact {
   background: transparent url("images/footer-contact.png") no-repeat 0 30%;
 }
-.footer #twitter, #facebook, #gplus, #github, #contact {
+.footer #twitter, #github, #contact {
   opacity: 0.4;
 }
-.footer #twitter:hover, #facebook:hover, #gplus:hover, #github:hover, #contact:hover {
+.footer #twitter:hover, #github:hover, #contact:hover {
   opacity: 1.0;
 }
 
