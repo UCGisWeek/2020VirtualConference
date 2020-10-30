@@ -260,6 +260,7 @@ footer {
   }
   .container {
     margin-left: auto;
+	  width:600px;
   }
   ul.page-nav {
     margin-left: 15px;
