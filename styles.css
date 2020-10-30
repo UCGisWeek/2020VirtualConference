@@ -1,5 +1,4 @@
 body {
-  background: #fff url('fuller_us.png') no-repeat 100% 0;
   background-attachment:fixed;
   font-size: 14px;
 }
@@ -33,7 +32,6 @@ hr {
 }
 
 .navbar-brand {
-  background: url('images/qgis-us-logo.png') no-repeat center/58%;
   height: 67px;
   width: 100px;
 }
@@ -66,7 +64,6 @@ select#other_groups {
   float: right;
   margin: 18px 1px 0 4px;
   width: 168px;
-  background: #aaa url('images/down-arrow.png') no-repeat 95% 50%;
   line-height: 20px;
   color: white;
   outline: none;
@@ -284,3 +281,49 @@ footer {
     background: #fff url('fuller_us.png') no-repeat 100% 0 !important;
   }
 }
+
+
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857;
+	border-radius: 0;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.dropdown-item {
+
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+    margin-top: 0;
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+  }
+
+  .site-header .custom-header .campusSelector-item {
+    font-weight: 100;
+    background-color: white;
+    color: #005581;
+    width: 100%;
+    margin: 0;
+  }
+
+ .campusSelector,#navbarDropdownMenuLink {
+    font-weight: 500;
+    background-color: #00334e;
+    color: white !important;
+    border: 1px solid white;
+  }
