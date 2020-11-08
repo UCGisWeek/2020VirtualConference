@@ -1,3 +1,72 @@
+:root {
+
+  --font-family: 'Lato', Helvetica, Arial, sans-serif;
+  --font-family-serif: 'Lora', Georgia, serif;
+
+  --font-family-system: -apple-system, BlinkMacSystemFont, "helvetica neue",
+    helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  --font-family-mono: Menlo, Consolas, Monaco, "Liberation Mono",
+    "Lucida Console", monospace;
+
+  --font-weight-thin: 100;
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-black: 900;
+
+  
+  --text-scale-ratio: 1.125;
+
+  --font-size-xxxx-display: 4.624rem; 
+  --font-size-xxx-display: 4.11rem; 
+  --font-size-xx-display: 3.653rem; 
+  --font-size-x-display: 2.887rem; 
+  --font-size-display: 2.566rem; 
+  --font-size-xxxx-large: 2.027rem; 
+  --font-size-xxx-large: 1.802rem; 
+  --font-size-xx-large: 1.602rem; 
+  --font-size-x-large: 1.424rem; 
+  --font-size-large: 1.266rem; 
+  --font-size-medium: 1.125rem; 
+  --font-size: 1rem; 
+  --font-size-small: 0.889rem; 
+  --font-size-x-small: 0.79rem; 
+
+
+  --line-height-text: 1.5; 
+  --line-height-display: 1.125;
+  --line-height-alt: 1.25; 
+  --line-height: 1;
+
+  /* UC Brand colors */
+
+  --uc-blue: #1295d8;
+  --uc-gold: #ffb511;
+  --blue: #005581;
+  --light-blue: #72cdf4;
+  --gold: #ffd200;
+  --light-gold: #ffe552;
+
+  --orange: #ff6e1b;
+  --light-orange: #ff8f28;
+  --pink: #e44c9a;
+  --light-pink: #feb2e0;
+  --teal: #00778B;
+  --light-teal: #00a3ad;
+
+  --uc-gray: #7c7e7f;
+  --warm-gray-8: #8f8884;
+  --warm-gray-3: #beb6af;
+  --warm-gray-1: #dbd5cd;
+  --metallic-gold: #b4975a;
+  
+}
+
+
 body {
   background-attachment:fixed;
   font-size: 14px;
@@ -174,7 +243,7 @@ ul.page-nav li {
 }
 
 .tab-content-wrapper {
-  background-color: rgb(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   padding-right: 2.5em;
 }
 
