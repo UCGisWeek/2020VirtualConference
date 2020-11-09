@@ -258,6 +258,10 @@ nav[role="navigation"] li {
   text-transform: uppercase;
 }
 
+nav[role="navigation"] li:last-child {
+  margin-left: auto;
+}
+
 .btn-primary,
 .btn-outline-primary {
   color: var(--uc-blue);
