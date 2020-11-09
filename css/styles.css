@@ -306,6 +306,16 @@ nav[role="navigation"] li:last-child {
 }
 
 
+.slack-icon {
+  width: 175px;
+  margin: 0;
+  
+}
+
+.slack-icon + h3 {
+  padding-top: 0;
+  margin-top: 0;
+}
 
 .featurette {
   clear: both;
