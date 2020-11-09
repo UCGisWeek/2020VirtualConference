@@ -250,7 +250,7 @@ footer svg:hover {
 /* Overwrite bootstrap */
 
 .bg-dark {
-  background-color: var(--dark-pink) !important;
+  background-color: var(--blue) !important;
 }
 
 nav[role="navigation"] li {
