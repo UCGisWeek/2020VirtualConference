@@ -1,6 +1,3 @@
-UCGisweek.github.io
-=================
+# UC GIS Week Website
 
-UC GIS Week Website
-
-https://ucgisweek.github.io/2020VirtualConference/
+[UCGISweek.github.io](https://ucgisweek.github.io/2020VirtualConference/)

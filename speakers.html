@@ -8,7 +8,7 @@
     <meta name="keywords" content="gis, University of California, UCLA, UCI, UCB, UCD, UCSD, UCSF, UCM, UCR, UCSC, UCSB">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 
@@ -16,233 +16,144 @@
 
   <body>
 	  
-	 <!-- NAVBAR -->
-	 <div class="navbar navbar-default" role="navigation">
-	     <div class="container-fluid">
-	         <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-	         <!-- Brand and toggle get grouped for better mobile display -->
-	         <div class="navbar-header">
-	             <button type="button" class="navbar-toggle" data-toggle="collapse"
-	                 data-target=".navbar-collapse">
-	                 <span class="sr-only">Toggle navigation</span>
-	                 <span class="icon-bar"></span>
-	                 <span class="icon-bar"></span>
-	                 <span class="icon-bar"></span>
-	             </button>
-	         </div>
-
-	         <div class="collapse navbar-collapse" id="nav-collapse">
-	             <ul class="nav navbar-nav">
-	                <li><a href="./">UC GIS Week</a></li>
-	                <li><a href="./schedule.html">Schedule</a></li>
-	                <li><a href="./speakers.html">Speakers</a></li>
-	                <li><a href="./faq.html">FAQ</a></li>
-	                <li><a href="./posters.html">Poster Session</a></li>
-			<li><a href="https://www.eventbrite.com/e/uc-gis-week-tickets-125668693445?aff=affiliate1">Registration</a></li>
-			<li><a href="https://uc-gis-ucop.hub.arcgis.com/" target="_blank">UC GIS Hub</a></li>
-                    <li class="nav-item dropdown campusSelector">
-	                         <a class="nav-link dropdown-toggle" href="#"
-	                             id="navbarDropdownMenuLink" data-toggle="dropdown"
-	                             aria-haspopup="true" aria-expanded="false">
-	                             Campuses<span class="caret"></span>
-	                         </a>
-	                         <ul class="dropdown-menu"
-	                             aria-labelledby="campusSelector">
-	                             <li><a href="https://guides.lib.berkeley.edu/gis">
-	                                     <p class="campusSelector-item">
-	                                         Berkeley</p>
-	                                 </a>
-	                             </li>
-	                             <li><a
-	                                     href="https://uc-gis-ucop.hub.arcgis.com/pages/uc-davis">
-	                                     <p class="campusSelector-item">Davis</p>
-	                                 </a></li>
-	                             <li>
-	                                 <a href="https://guides.lib.uci.edu/gis">
-	                                     <p class="campusSelector-item">
-	                                         Irvine</p>
-	                                 </a>
-	                             </li>
-	                             <li><a
-	                                     href="https://uc-gis-ucop.hub.arcgis.com/pages/uc-los-angeles">
-	                                     <p class="campusSelector-item">Los Angeles
-	                                     </p>
-	                                 </a></li>
-	                             <li>
-	                                 <a href="http://library.ucmerced.edu/sparc">
-	                                     <p class="campusSelector-item">
-	                                         Merced</p>
-	                                 </a>
-	                             </li>
-	                             <li>
-	                                 <a
-	                                     href="https://library.ucr.edu/research-services/how-do-i-find/how-do-i-find-maps-gis">
-	                                     <p class="campusSelector-item">Riverside
-	                                     </p>
-	                                 </a>
-	                             </li>
-	                             <li>
-	                                 <a
-	                                     href="https://uc-gis-ucop.hub.arcgis.com/pages/uc-san-diego">
-	                                     <p class="campusSelector-item">
-	                                         San Diego</p>
-	                                 </a>
-	                             </li>
-	                             <li>
-	                                 <a
-	                                     href="https://uc-gis-ucop.hub.arcgis.com/pages/uc-san-francisco">
-	                                     <p class="campusSelector-item">
-	                                         San Francisco</p>
-	                                 </a>
-	                             </li>
-	                             <li>
-	                                 <a
-	                                     href="https://www.library.ucsb.edu/irc/spatial">
-	                                     <p class="campusSelector-item">Santa
-	                                         Barbara</p>
-	                                 </a>
-	                             </li>
-	                             <li>
-	                                 <a
-	                                     href="https://uc-gis-ucop.hub.arcgis.com/pages/uc-santa-cruz">
-	                                     <p class="campusSelector-item">Santa Cruz
-	                                     </p>
-	                                 </a>
-	                             </li>
-	                         </ul>
-	                         <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <ul class="dropdown-item">
-                            <a  href="https://guides.lib.berkeley.edu/gis">Berkeley</a>
-                        </ul>
-                        <ul class="dropdown-item"><a  href="https://www.library.ucdavis.edu/guide/mapping-and-gis/">Davis</a></ul>
-                        <ul class="dropdown-item"><a  href="https://guides.lib.uci.edu/gis">Irvine</a></ul>
-                        <ul class="dropdown-item"><a  href="https://guides.library.ucla.edu/gis">Los Angeles</a></ul>
-                        <ul class="dropdown-item"><a  href="http://library.ucmerced.edu/sparc">Merced</a></ul>
-                        <ul class="dropdown-item"><a  href="https://library.ucr.edu/research-services/how-do-i-find/how-do-i-find-maps-gis">Riverside</a></ul>
-                        <ul class="dropdown-item"><a  href="https://ucsd.libguides.com/gis">San Diego</a></ul>
-                        <ul class="dropdown-item"><a  href="https://maps.ucsf.edu/">San Francisco</a></ul>
-                        <ul class="dropdown-item"><a  href="https://www.library.ucsb.edu/irc/spatial">Santa Barbara</a></ul>
-                        <ul class="dropdown-item"><a  href="https://guides.library.ucsc.edu/DS/Resources/Mapping">Santa Cruz</a></ul> -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item"><a class="nav-link" href="./">UC GIS Week</a></li>
+						<li class="nav-item"><a class="nav-link" href="./schedule.html">Schedule</a></li>
+						<li class="nav-item active"><a class="nav-link" href="./speakers.html">Speakers</a></li>
+						<li class="nav-item"><a class="nav-link" href="./posters.html">Poster Session</a></li>
+						<li class="nav-item"><a class="nav-link" href="./faq.html">FAQ</a></li>
+					</ul>
+				</div>
+		</nav>
 
 
-	         </div>
-	         </li>
-	         </ul>
-	     </div>
 
+	     <main role="main">
 
-	     <div class="container container-wrapper">
-
-	         <h2>Speakers</h2>
+	         <h1>Speakers</h1>
 	         <p class="lead">
 	             List of speakers will be coming soon! <a
 	                 href="https://www.eventbrite.com/e/uc-gis-week-tickets-125668693445?aff=affiliate1">Register</a>
 	             now to get notified when the bios are up!
 	         </p>
-	         <!--<h3 class="py-2">--B--</h3>
+
+<!-- 	       
+	         <h3>--B--</h3>
                         <ul>
 			<li>Nicolas Barth: Nicolas Barth is an Assistant Professor of Geology at the University of California, Riverside. He specializes in utilizing high-resolution topographic data (lidar, structure-from-motion photogrammetry) to answer natural hazard problems related to faults and landslides, and more broadly to understand landscapes.</li>
 			<li>Heidi Batchelor: Heidi Batchelor earned an MA in Geography from San Diego State University and specializes in Geographic Information Systems for the marine environment. Heidi teaches classes in GIS at Scripps Institution of Oceanography (SIO) and through UCSD Extension. She is an experienced data analyst having worked with a wide variety of oceanographic data including side scan sonar, sub bottom profilers, vessel and AUV-based multibeam, and acoustic arrays. At SIO she manages data repositories and databases for marine data, prepares data for 3D visualization and VR, and assists with many aspects of oceanographic research both in the lab and in the field.</li>
 			<li>Karen Beardsley: Karen received her Ph.D. in Geography from the University of California, Davis, and before that, a Masters in Geography from the University of California, Santa Barbara.  She worked for over 20 years as a researcher and GIS project manager for the Information Center for the Environment at UC Davis.  Since 2014 she has served as Director of the Hubert H. Humphrey Fellowship Program at UC Davis, and for four years has been the Director of Global Professional Programs for UC Davis Global Affairs. She was a Fulbright scholar, teaching GIS in Bhutan (2015‐2016), and a US Peace Corps Volunteer in Kenya in the late 1980’s, where she taught math and science in a rural secondary school.  Her GIS career began shortly after her Peace Corps service, also in Kenya, working for the United Nations Environment Programme on elephant conservation.  In addition to her position with Global Affairs, Karen continues to teach GIS for UC Davis Continuing and Professional Education and for UC Davis. She taught Introduction to GIS as a summer abroad course in 2018 and 2019 in Bhutan, and taught a virtual summer GIS class for UC Davis in 2020.</li>
 			<li>Katherine Brenner: Katherine Brenner is a UCLA undergraduate student majoring in environmental sciences and minoring in public health. She has been working in the Fielding School of Public Health Environmental Health Sciences Department as a student researcher.  She is currently working on 2 projects- one in the Marlier Lab mapping 2018 California Wildfire PM2.5 emissions as well as on a Natural & Working Lands scenario-based tool for the California Air Resource Board (CARB),  focusing on greenspaces and health. She has a passion for protecting marginalized communities against unequal burden of diseases and plans to pursue an MPH after undergrad.</li>
 			</ul>
-			<h3 class="py-2">--C--</h3>
+			<h3>--C--</h3>
 			<ul>
 			<li>Kian Tyler Carson: Kian Tyler Carson I am a third-year student at UCLA majoring in Economics with minors in Geospatial Information Systems and Technologies as well as Geography.  I plan to graduate this spring and pursue either an MA in Applied Economics or an MS in Geospatial Sciences or Remote Sensing. I am a Washington native, born in Seattle.</li>															
 			<li>Heather Noel-Chien Chou: Heather Chou is a second-year UCLA undergraduate majoring in Geography and minoring in Geographic Information Systems and Technology (GIS&T) with a potential minor in Public Health. She is also UCLA's 2020-21 Geography Association GIS Representative. She is beginning her journey in learning GIS through courses and self-learning, and has a strong interest in combining Healthcare and Public Health disciplines with GIS technology. Heather is also a database research committee member and client navigator for UCLA's Asian Pacific American HEALTH Care organization where she performs health screenings for underserved Asian and Pacific Islander communities throughout San Gabriel Valley, California at health fairs and conducts research with other organization members. She is also a new member of UCLA's PILOT (Public-Health Initiative: Leaders of Tomorrow) Pre-Professional Public Health organization, as well as a Clinical Care Extender Volunteer for UCLA's Ronald Reagan Hospital. She is beyond excited to learn more GIS and apply its amazing capabilities to real-world issues in hopes to benefit and improve the well-being and quality of people's lives.</li>															
 			<li>Claire Chua: Claire, who graduated from UCLA Class of 2020 with a B.A. Psychology was inspired by her frequent travels to take up GIS courses in her sophomore year. Her favorite part about GIS is cartography and making pretty maps. GIS exposed her to the world of data analysis and motivated her to pursue the Master of Social Science that she is currently working towards at UCLA. Pre-covid, you'd be more likely to find Claire at LAX than in the library, but these days she enjoys staying home and drinking a lot of coffee.</li>
 			<li>Sachi R Cooper: </li>
 			</ul>
-			<h3 class="py-2">--E--</h3>
+			<h3>--E--</h3>
 			<ul>
 			<li>Ethan Ebinger: Ethan is a graduate student at UC Berkeley pursuing a Master in City Planning and a Master of Science in Transportation Engineering. He is interested in how GIS and data science can be used to improve transportation access and equity. Ethan currently works as a graduate student researcher at the Terner Center for Housing Innovation and in his spare time enjoys making wheel-thrown pottery. https://ethanebinger.com/.</li>
 			<li>Ahmed Eldawy: Ahmed Eldawy is an Assistant Professor in Computer Science at the University of California Riverside. His research interests lie in the broad area of databases with a focus on big data management and spatial data processing. Ahmed is the main inventor of SpatialHadoop, for big spatial data processing, and UCR-Star, an interactive repository of big spatial data. Ahmed has many collaborators in industrial research labs including Microsoft Research and IBM Watson. His work is supported by the National Science Foundation (NSF) and the US Department of Agriculture (USDA).</li>
 			<li>Emily Esposito: Emily Esposito is a graduate student studying psychology at UC Riverside. As a part of the Riverside Social and Spatial Cognition Lab, she studies how the qualities and characteristics of places interact with individual-level characteristics, such as attitudes or identity, to predict different behaviors. Her research interests are beginning to look at how people perceive places, and how social environments and physical places may differentially shape people's attitudes, experiences, and actions.</li>
 			</ul>			
-			<h3 class="py-2">--G--</h3>
+			<h3>--G--</h3>
 			<ul>
 			<li>Max Andrew Gardner: Max is a Ph.D. Candidate in Civil Systems Engineering interested in econometric modeling of intra-urban migration patterns.</li>
 			<li>Anusha Goyal: Anusha Goyal I am a 4th-year student at UCLA, majoring in Geography and International Development Studies with a minor in Geospatial Information Systems and Technologies. I'm an international student, from Dubai, who is looking to enter the geospatial data solutions market after graduating. </li>
 			<li>Pamela Grieman: </li>
 			</ul>
-			<h3 class="py-2">--H--</h3>
+			<h3>--H--</h3>
 			<ul>
 			<li>Alyssa Hemler: </li>
 			<li>Cassie Hoeprich: Cassie Hoeprich, cityLAB UHI Fellow Cassie is an urban planner and community development specialist. Building off of her experience at the City of San Francisco where she worked on public realm and economic development strategies, she is currently pursuing a Masters in Urban and Regional Planning at UCLA. While at UCLA, Cassie's research focuses on public-private partnerships and government policies that advance spatial justice and undo racialized patterns of land dispossession within vulnerable communities. Cassie works for the Hollywood Partnership, a business improvement district, as their Research Manager and is a cityLAB Urban Humanities Initiative Fellow for the 2020-21 school year.</li>   
 			<li>Ryan Horne: Ryan is UCLA's Sinai Manuscripts Digital Library Data/Metadata Coordinator. He came to UCLA from the University of Pittsburgh where he served as Research Associate in the World History Center. There, his work focused on developing open data standards to describe and model historical artifacts, geography, and events in order to visualize and inform our understanding of the social, political, and economic networks. Prior to this position, Ryan served as Director of the Ancient World Mapping Center at UNC-Chapel Hill and he currently serves as an Associate Editor of the Pleiades gazetteer of ancient places, an authoritative source for data on over 35,000 ancient locations in Europe, Asia, and Africa. Ryan received his Ph.D. in Ancient History from UNC-Chapel Hill.</li> 
 			</ul>			
-			<h3 class="py-2">--J--</h3>
+			<h3>--J--</h3>
 			<ul>
 			<li>Jamie Jamison: Jamie Jamison is a collection manager in the UCLA Library Data Science Center. She recently completed the UCLA Extension GIS and Geospatial Technology Certificate Program.</li>															
 			</ul>			
-			<h3 class="py-2">--L--</h3>
+			<h3>--L--</h3>
 			<ul>
 			<li>Rayne Laborde: Rayne Laborde, cityLAB Research Fellow Trained as an architect and urban planner, Rayne's interdisciplinary work links design, planning, and collective memory to produce interventions focused on spatial justice. Her current research includes re-thinking the role of Los Angeles Parks to serve the immediate needs of unhoused residents; tracing the spatial network of migrant labor in the greenhouses of Almería, Spain; and analyzing inequity in unincorporated LA County. In addition to her work with cityLAB, Rayne is a Levine Distinguished Fellow at the Ziman Center for Real Estate.</li>
 			</ul>			
-			<h3 class="py-2">--M--</h3>
+			<h3>--M--</h3>
 			<ul>
 			<li>Hoda S. Abdel Magid: Hoda Abdel Magid, PhD, MHS is a postdoctoral research fellow working with Dr. Lorene Nelson and Dr. Michelle Odden in the Department of Epidemiology & Population Health and the Center for Population Health Sciences at Stanford University. She is also a fellow in the Big Data-Scientist Training Enhancement Program (BD-STEP) at the Palo Alto VA. Her graduate career research promoted the understanding of new and emerging tobacco products use among adolescents and young adults.  She received her Masters of Health Science in Environmental Epidemiology from The Johns Hopkins Bloomberg School of Public Health in 2015 and her Doctorate in Epidemiology from the University of California, Berkeley in 2018 with a focus in Social Epidemiology. Dr. Abdel Magid’s current research builds upon her previous training to further understand chronic disease risk behaviors and leverages spatial epidemiology to examine health disparities among socially-marginalized communities.</li>
 			<li>Joseph Mascaro, Ph.D.: </li>
 			<li>Erin Mutch: </li>
 			<li>Andre Mere: I am a graduate student in the Earth and Planetary Sciences department of UC Riverside working with Dr. Nicolas Barth. I utilize a combination of field, digital, and laboratory research methods to study active tectonic processes operating proximal to Alpine Fault in the South Island of New Zealand.</li> 
 			</ul>			
-			<h3 class="py-2">--N--</h3>
+			<h3>--N--</h3>
 			<ul>
 			<li>Andrew Nguyen: Andrew Nguyen is a recent public health graduate from UC San Diego. He works in and has a passion for interdisciplinary community health projects that utilize practical technological applications and human-oriented design.</li>
 			</ul>			
-			<h3 class="py-2">--O--</h3>
+			<h3>--O--</h3>
 			<ul>	
 			<li>Elizabeth Owen: Elizabeth Owen is a first-year graduate student in Urban & Regional Planning at UCLA Luskin School of Public Affairs.  She is also a 2020 alumni of UC San Diego's undergraduate Urban Studies & Planning program. Elizabeth's interests are focused in transportation and land use planning, spatial analytics, affordable housing/ADU development, and tactical urbanism. </li>
 			</ul>			
-			<h3 class="py-2">--P--</h3>	
+			<h3>--P--</h3>	
 			<ul>			
 			<li>Nicole Pereira: </li>
 			</ul>
-			<h3 class="py-2">--R--</h3>
+			<h3>--R--</h3>
 			<ul>
 			<li>Sri Ramesh: Sri Ramesh is a Master of Development Practice (MDP) candidate at UC Berkeley where she studies applied data science and GIS for public policy. For the last 5 years, she has lived and worked in the development sector in India, Sri Lanka, South Africa, and Washington DC, working on projects ranging from government finance, girls' education in former war zones, and randomized evaluations. Most recently, she led strategic monitoring and evaluation initiatives at Cloud to Street, a remote sensing startup providing flood analytics to African governments. Sri is an alumna of the US Fulbright Program as well as the US Department of State.</li>
 			<li>Fernando Roman: Fernando Roman is a 4th year undergraduate Environmental Engineering major at the University of California, Merced. Since June 2020, he has been a part of a UC Center awarded COVID-19 emergency seed grant research team led by Assistant Professor Colleen Naughton at UC Merced entitled "Integrated Quantitative Microbial Risk Assessment and Geospatial Analysis of SARS-CoV-2 in Wastewater for Vulnerable Populations." As part of Dr. Naughton’s team, he 1) contributes to our global dashboard of wastewater monitoring for SARS-CoV-2, 2) maps wastewater treatment plants in California and 3) analyzes their proximities to residential and commercial areas. Mr. Roman is currently enrolled in a UC spatial analysis and modeling course, and is applying what he learns in the class to his research. He loves all things related to water, and is interested with any tool related to the distribution of both wastewater and potable water. Mr. Roman is currently applying to graduate programs in Civil and Environmental Engineering.</li>															
 			</ul>			
-			<h3 class="py-2">--S--</h3>
+			<h3>--S--</h3>
 			<ul>
 			<li>Elia Scudiero: Elia has a PhD in Crop Science from the University of Padua, Italy, which he got in 2013. He has been in Riverside since 2014, as a postdoc at the USDA-ARS US Salinity Laboratory, which is located on UCR's campus.Since January 2018, he is an Assistant Research Agronomist at the Department of Environmental Sciences. His "Digital Agronomy Lab" includes 2 postdocs and 2 jr. specialists. Elia's lab uses near-ground and remote sensing measurements to characterize and model multi-scale agro-environmental soil-plant processes to support sustainable agriculture and water management practices. His extramural funding includes The Lawn Institute, the California Department of Food and Agriculture, and USDA’s National Institute of Food and Agriculture, from which he received a New Investigator award in 2019.</li>
 			<li>Pat Seed: Oxford Map Companion: A Hundred Maps in World History. (2014); ESRI Map Book “Rising Sea Levels at Cape Blanco,” (best software maps) American Geographical Association representative to UN Climate Change Conference (Marakesh) (2016).  Currently working on origins of magnetic variation on nautical charts ca 1460.</li>
 			<li>Joseph Stewart: </li>
 			</ul>
-			<h3 class="py-2">--T--</h3>
+			<h3>--T--</h3>
 			<ul>
 			<li>Michele Tobias: Michele Tobias is the Geospatial Data Specialist at UC Davis DataLab: Data Sciences & Informatics.  She has a BA & PhD in Geography from UCLA and UC Davis, respectively, and an MS in Ecology from University of Michigan.  She is a biogeographer who uses her geographic and geospatial research skills to assist researchers of many fields in learning and applying geospatial methods to their research.  She oversees long-term geospatial data development projects like the American Viticultural Areas Digitizing Project and geospatial research projects at DataLab.  Her personal area of research interest is in California’s sandy beach vegetation.</li>															
 			<li>Arianna Tariq: Arianna Tariqi is a fourth year Environmental Engineering major at the University of California, Merced. She found her love for mapping in March of 2019 when she joined Dr. Naughton’s research team, mapping nitrate contamination in drinking water wells in California and it’s potential relationship to thyroid cancer with a focus on disadvantaged communities. She also works on the mapping team for the COVID-19 emergency seed grant entitled "Integrated Quantitative Microbial Risk Assessment and Geospatial Analysis of SARS-CoV-2 in Wastewater for Vulnerable Populations". Using her prior knowledge of ArcGIS Pro, she assists in the mapping of wastewater treatment plants and finding statistical significance of their proximities to residential and commercial areas. Arianna hopes to continue researching after graduation and is currently applying to Civil and Environmental Engineering graduate programs. When she isn’t finding the perfect color scheme for her maps, she spends time playing tennis and learning how to cook food with her family.</li>
 			</ul>			
-			<h3 class="py-2">--W--</h3>
+			<h3>--W--</h3>
 			<ul>
 			<li>Julie Wartell: Julie Wartell has spent 25 years working with local, state and federal criminal justice agencies and communities around crime analysis, research and prevention; including as a crime analyst for police and prosecution, managing a regional crime mapping initiative, conducting research and evaluation for non-profits, as a National Institute of Justice fellow, and as an independent advisor. Julie has performed a wide range of research and analysis of crime problems, conducted studies of police and prosecutor processes, and assessed information technologies. She has conducted extensive training and presentations to officers, prosecutors, analysts and community internationally on topics relating to analyzing crime and problem solving. Julie has edited or authored numerous publications and teaches at the University of California–San Diego. She has an MPA from San Diego State and a Postgraduate Diploma in Applied Criminology and Police Management from University of Cambridge.</li>
 			<li>Joakim A. Weill: Joakim (Jo) Weill is a PhD candidate at UC Davis working on the economics of environmental inequalities. His research leverages microeconomic tools and causal inference methods to study (i) how environmental changes impact the most vulnerable populations, and (ii) the distributional impacts of public policies that aim to increase environmental resilience. Current projects investigate the unequal adaptation to flood risk in the United States and the distributional impacts of the flood insurance program, as well as the economic origins of inequalities in air pollution exposure. Prior to his doctoral studies, Jo worked as a consultant at the World Bank’s Environment and Natural Resources division. He holds masters in environmental sciences and environmental engineering from AgroParisTech, France.</li>
 			</ul>			
-			<h3 class="py-2">--Y--</h3>
+			<h3>--Y--</h3>
 			<ul>
 			<li>Jiue-An (Jay) Yang: </li>
 			</ul>
-			<h3 class="py-2">--Z--</h3>
+			<h3>--Z--</h3>
 			<ul>
-			<li>Bingyu Zhao: Dr Bingyu Zhao is a postdoc in the Civil and Environmental Engineering Department at UC Berkeley. She specializes in city and regional scale traffic and transport system modeling. Her research experiences include pavement degradation, emission modeling, wildfire evacuation and post-earthquake resilience assessment. She uses a variety of GIS and spatial data analysis tools in all stages of her research, from initial conceptualization to visual verification of the results. By participating in the UC GIS week, she wishes to learn about new tools and ideas that can help her and colleagues to overcome the visualization/mapping performance bottleneck in their current research.</li> -->
-		     </ul>
-		     <div class="clearfix"></div>
+			<li>Bingyu Zhao: Dr Bingyu Zhao is a postdoc in the Civil and Environmental Engineering Department at UC Berkeley. She specializes in city and regional scale traffic and transport system modeling. Her research experiences include pavement degradation, emission modeling, wildfire evacuation and post-earthquake resilience assessment. She uses a variety of GIS and spatial data analysis tools in all stages of her research, from initial conceptualization to visual verification of the results. By participating in the UC GIS week, she wishes to learn about new tools and ideas that can help her and colleagues to overcome the visualization/mapping performance bottleneck in their current research.</li>
+		     </ul> -->
+			
+				 </main>
 
-
-	         <!-- PAGE FOOTER -->
-	         <footer class="footer">
-	             <div class="container">
-	                 <p class="footer credit">If not stated otherwise, all content
-	                     is licensed under <a
-	                         href="http://creativecommons.org/licenses/by-sa/3.0/">Creative
-	                         Commons Attribution-ShareAlike 3.0 licence (CC
-	                         BY-SA)</a></p>
-	             </div>
-	         </footer>
+					 <footer role="contentinfo">
+						<nav class="social-media">
+								<ul>
+								<li><a href="https://github.com/UCGisWeek/2020VirtualConference">
+										<svg class="icon icon-github" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>developer-community-github-1</title><path d="M12,.28A12,12,0,0,0,8.28,23.69l.29,0a1,1,0,0,0,1.06-1.06v-.21c0-.17,0-.4,0-1.09A.5.5,0,0,0,9.43,21a.5.5,0,0,0-.42-.1c-2.68.58-3.25-1.1-3.29-1.21A4.64,4.64,0,0,0,4,17.5a1.16,1.16,0,0,0-.15-.11.63.63,0,0,1,.38-.07,1.47,1.47,0,0,1,1.15.88,3,3,0,0,0,4,1.16A.5.5,0,0,0,9.67,19a2,2,0,0,1,.56-1.23.5.5,0,0,0-.27-.87c-2.37-.27-4.79-1.1-4.79-5.19A4,4,0,0,1,6.22,8.93a.5.5,0,0,0,.09-.53A3.52,3.52,0,0,1,6.32,6,5.54,5.54,0,0,1,8.84,7.15a.49.49,0,0,0,.42.07A10.61,10.61,0,0,1,12,6.85a10.47,10.47,0,0,1,2.75.37.49.49,0,0,0,.41-.07A5.59,5.59,0,0,1,17.68,6a3.57,3.57,0,0,1,0,2.38.5.5,0,0,0,.09.53,4,4,0,0,1,1.05,2.75c0,4.09-2.43,4.91-4.81,5.18a.5.5,0,0,0-.27.88,2.2,2.2,0,0,1,.61,1.74v3.18a1.06,1.06,0,0,0,.36.83,1.2,1.2,0,0,0,1.06.19A12,12,0,0,0,12,.28Z"/></svg>
+								</a></li>
+								<li><a href="http://twitter.com/qgis_us">
+										<svg class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>social-media-twitter</title><path d="M23.32,6.44a.5.5,0,0,0-.2-.87l-.79-.2A.5.5,0,0,1,22,4.67l.44-.89a.5.5,0,0,0-.58-.7l-2,.56a.5.5,0,0,1-.44-.08,5,5,0,0,0-3-1,5,5,0,0,0-5,5v.36a.25.25,0,0,1-.22.25c-2.81.33-5.5-1.1-8.4-4.44a.51.51,0,0,0-.51-.15A.5.5,0,0,0,2,4a7.58,7.58,0,0,0,.46,4.92.25.25,0,0,1-.26.36L1.08,9.06a.5.5,0,0,0-.57.59,5.15,5.15,0,0,0,2.37,3.78.25.25,0,0,1,0,.45l-.53.21a.5.5,0,0,0-.26.69,4.36,4.36,0,0,0,3.2,2.48.25.25,0,0,1,0,.47A10.94,10.94,0,0,1,1,18.56a.5.5,0,0,0-.2,1,20.06,20.06,0,0,0,8.14,1.93,12.58,12.58,0,0,0,7-2A12.5,12.5,0,0,0,21.5,9.06V8.19a.5.5,0,0,1,.18-.38Z"/></svg>
+								</a></li>
+								<li><a href="http://lists.osgeo.org/cgi-bin/mailman/listinfo/qgis-us-user">
+										<svg class="icon icon-email" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>read-email-circle</title><path d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0Zm6.5,15.5A1.5,1.5,0,0,1,17,17H7a1.5,1.5,0,0,1-1.5-1.5V10.761a.249.249,0,0,1,.382-.212l4.925,3.078a2.261,2.261,0,0,0,2.385,0l4.925-3.078a.249.249,0,0,1,.254-.007.251.251,0,0,1,.129.219Zm-.035-6.937L12.4,12.355a.754.754,0,0,1-.795,0L5.539,8.563A.073.073,0,0,1,5.5,8.5,1.5,1.5,0,0,1,7,7H17a1.5,1.5,0,0,1,1.5,1.5A.077.077,0,0,1,18.469,8.563Z"/></svg>
+								
+								</a></li>
+						</ul>
+						</nav>
+						<small>Unless stated otherwise, all content is licensed under <br><a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 licence (CC BY-SA)</a></small>
+				</footer>
 
     <script src="js/jquery-2.0.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
     <script>
         $(function(){
             // bind change event to select
