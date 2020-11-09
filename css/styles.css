@@ -259,6 +259,10 @@ nav[role="navigation"] li {
   font-size: 1.6em !important;
 }
 
+.accordionFAQ {
+  min-width: var(--max-width);
+}
+
 
 
 .featurette {
