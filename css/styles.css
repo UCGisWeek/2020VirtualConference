@@ -185,7 +185,7 @@ aside {
   main,
   aside {
     max-width: var(--max-width);
-    margin: auto;
+    margin: auto 1em;
   }
  }
 
