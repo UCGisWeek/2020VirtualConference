@@ -204,9 +204,36 @@ aside > figure figcaption {
 
 main[role="main"] article:not(:last-of-type) {
   padding-bottom: var(--spacing-large);
-  margin-bottom: var(--spacing-large);
-  border-bottom: 1px solid var(--uc-gold);
+  margin-bottom: var(--spacing-xx-large);
+  border-bottom: 1px solid var(--color-black);
 }
+
+main[role="main"] ul.nav > li:first-of-type {
+  margin-right: var(--spacing);
+}
+
+main[role="main"] ul.nav li > h2 {
+  font-style: italic;
+}
+
+main[role="main"] section h2:first-of-type {
+  font-style: italic;
+  margin-bottom: var(--spacing-large);
+  border-bottom: 1px solid var(--blue);
+}
+
+@media (min-width: 48em) {
+  main[role="main"] article p.speaker {
+    font-size: var(--font-size-xx-large);
+  }
+
+  main[role="main"] ul.nav > li:first-of-type {
+    margin-right: var(--spacing-x-large);
+  }
+}
+
+
+
 
 h1,
 h2,
@@ -339,6 +366,7 @@ nav[role="navigation"] li:last-child {
 .speaker > em {
   color: var(--blue);
   display: block;
+  line-height: 1;
 }
 
 .schedule {
