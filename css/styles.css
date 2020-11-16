@@ -333,8 +333,8 @@ nav[role="navigation"] li:last-child {
 }
 
 .speaker > em {
-  color: #717171;
-  font-weight: 100;
+  color: var(--blue);
+  display: block;
 }
 
 .schedule {
