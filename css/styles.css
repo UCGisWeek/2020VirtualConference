@@ -202,7 +202,11 @@ aside > figure figcaption {
   }
  }
 
-
+main[role="main"] article:not(:last-of-type) {
+  padding-bottom: var(--spacing-large);
+  margin-bottom: var(--spacing-large);
+  border-bottom: 1px solid var(--uc-gold);
+}
 
 h1,
 h2,
