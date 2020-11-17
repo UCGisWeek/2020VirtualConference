@@ -367,7 +367,6 @@ nav[role="navigation"] li:last-child {
 .speaker > em {
   color: var(--blue);
   display: block;
-  line-height: 1;
 }
 
 .schedule {
