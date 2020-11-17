@@ -269,6 +269,10 @@ footer {
   background-color: var(--warm-gray-1);
 }
 
+footer nav {
+  margin-bottom: var(--spacing-xx-large);
+}
+
 footer nav ul {
   display: flex;
   justify-content: center;
