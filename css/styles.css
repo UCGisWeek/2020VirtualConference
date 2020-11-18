@@ -391,3 +391,23 @@ nav[role="navigation"] li:last-child {
   background-color: rgba(255, 255, 255, 0.5);
   padding-right: 2.5em;
 }
+
+.speakers main h3 {
+  background-color: var(--uc-gold);
+  padding: var(--spacing);
+  margin-bottom: var(--spacing-xx-large); 
+  text-align: center;
+}
+.speakers main li {
+  margin-bottom: var(--spacing-large); 
+}
+
+.speakers main li b {
+  font-size: 120%;
+}
+
+@media (min-width: 48em) {
+  .speakers main li b {
+    font-size: 140%;
+  }
+}
