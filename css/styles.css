@@ -234,7 +234,6 @@ main[role="main"] section h2:first-of-type {
 
 
 
-
 h1,
 h2,
 h3,
@@ -402,6 +401,10 @@ nav[role="navigation"] li:last-child {
   margin-bottom: var(--spacing-large); 
 }
 
+.speakers main h3 {
+  margin-bottom: var(--spacing-x-large);
+}
+
 .speakers main li b {
   font-size: 120%;
 }
@@ -410,4 +413,10 @@ nav[role="navigation"] li:last-child {
   .speakers main li b {
     font-size: 140%;
   }
+}
+
+.ucgis-schedule-nav header {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
