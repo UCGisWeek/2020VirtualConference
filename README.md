@@ -1,6 +1,3 @@
-qgis-us.github.io
-=================
+# UC GIS Week Website
 
-QGIS US Website
-
-http://qgis.us
+[UCGISweek.github.io](https://ucgisweek.github.io/2020VirtualConference/)
